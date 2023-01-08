@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Tab from './components/tab/tab.jsx'
 
+const title="My Blog";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p hidden>{document.title=title}</p>
+      <Tab tab1=<p>1</p> tab2=<p>2</p> />
     </div>
   );
 }

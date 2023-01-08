@@ -1,0 +1,16 @@
+.Tab {
+    padding: 5px;
+    margin: 2px;
+    display: inline;
+    font-size: 20px;
+    cursor: pointer;
+}
+.TabItem {
+    border-bottom: 2px solid black;
+}
+.TabItemSelect {
+    border-bottom: 2px solid blue;
+}
+li {
+    list-style: none;
+}
