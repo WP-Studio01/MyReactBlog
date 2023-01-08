@@ -2,6 +2,8 @@
 
 [中文](#) \| [English](README.md)
 
+## 修改说明
+
 这是react博客网站，静态博客，`posts`文件夹下的内容是文章，统一用markdown格式，请在`posts.jsx`文件的全局变量内注明，格式如下
 ```json
 {
@@ -14,6 +16,10 @@
 }
 ```
 顺序按照`json`文件里的顺序
+
+## 运行
+
+使用`git clone`得到代码仓库，在仓库内调用`npm install`
 
 最后可以调用`npm start`来本机调试，访问[localhost:3000](http://localhost:3000)可以获得结果
 
