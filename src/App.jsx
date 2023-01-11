@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <p hidden>{document.title=title}</p>
-      <Tab tab1=<Home /> tab2=<p>文章</p> />
+      <Tab tab1=<Home /> tab2=<Blog /> />
     </div>
   );
 }

@@ -16,3 +16,5 @@ class Blog extends React.Component {
         console.log('文章页已加载');
     }
 }
+
+export default Blog
