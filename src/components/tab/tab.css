@@ -15,5 +15,5 @@ li {
     list-style: none;
 }
 .content {
-    text-indent: 3em;
+    margin-left: 3em;
 }

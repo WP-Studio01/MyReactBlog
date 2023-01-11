@@ -4,15 +4,12 @@
 
 ## 修改说明
 
-这是react博客网站，静态博客，`posts`文件夹下的内容是文章，统一用markdown格式，请在`blog.jsx`文件的全局变量内注明，格式如下
+这是react博客网站，静态博客，使用Github Issue作为载体，统一用markdown格式，请在`blog.jsx`文件的全局变量内注明，格式如下
 ```json
 {
-    "文件名1": {
-        "title": "标题"
-    },
-    "文件名2": {
-        "title": "标题"
-    }
+    "user": "hwtalk",
+    "repo": "hwtalk-posts",
+    "content": [2,1] // 依次填issue的id
 }
 ```
 顺序按照`json`文件里的顺序
