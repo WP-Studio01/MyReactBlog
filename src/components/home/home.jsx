@@ -10,8 +10,14 @@ class Home extends React.Component {
     componentDidMount() {
         console.log('主页已加载');
     }
+    componentWillUnmount() {
+        console.log('主页已卸载');
+    }
     releasePost() {
         alert('暂不支持发帖,如果需要请去仓库的issue页面发帖');
+        if(window.confirm('是否前往')) {
+            window.open('https://github.com/hwtalk/hwtalk-posts/issues');
+        }
     }
     render() {
         return (
